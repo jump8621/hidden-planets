@@ -1,6 +1,7 @@
 # hidden-planets
 Machine Learning dealing with data from the Kepler space telescope
 
+Test accuracy: 0.900
 My Random Forest Tree model has the highest percentage of test accuracy at 0.894
 RandomForestClassifier(n_estimators=500)
 
@@ -10,8 +11,12 @@ Testing Data Score: 0.8930205949656751
  (6991, 27)
 Training Data Score: 1.0
 Testing Data Score: 0.8958810068649885
+Training Data Score: 1.0
+Testing Data Score: 0.8953089244851259
 {'max_depth': 10, 'max_features': 'auto', 'min_samples_split': 2, 'n_estimators': 50}
 0.8931941725671122
+{'max_depth': 10, 'max_features': 'auto', 'min_samples_split': 2, 'n_estimators': 50}
+0.8926221992591999
 
 
 My Logistic Regression model has a test accuracy percentage of 0.884
