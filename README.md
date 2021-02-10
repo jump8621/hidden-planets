@@ -58,10 +58,12 @@ print(grid.best_score_):    0.8821285630080264
 RFC = grid.best_estimator_
 print('Test accuracy: %.3f' % RFC.score(X_test_scaler, y_test)):  Test accuracy: 0.879
 
-# from sklearn.feature_selection import RFE
-# model = LogisticRegression(solver='lbfgs')
-# rfe = RFE(model, 3)
-# fit = rfe.fit(X, y)
+
+
+from sklearn.feature_selection import RFE
+model = LogisticRegression(solver='lbfgs')
+rfe = RFE(model, 3)
+fit = rfe.fit(X, y)
 (6991, 34) (6991,)
 Training Data Score: 0.7901964524127408
 Testing Data Score: 0.7814645308924485
