@@ -1,9 +1,18 @@
 # # hidden-planets
 Machine Learning dealing with data from the Kepler space telescope
 
+
+
+TEST/DATA| RFT | LR | DL | SVC |
+---------|-----|----|----|-----|
+Test accuracy| 0.900| 0.884| 0.879| 0.879
+
+
 Test accuracy: 0.900
 
 # My Random Forest Tree model has the highest percentage of test accuracy at 0.894
+
+The Random Forest Tree model 
 
 RandomForestClassifier(n_estimators=500)
 
@@ -85,4 +94,18 @@ fit = rfe.fit(X, y)
 Training Data Score: 0.7901964524127408
 Testing Data Score: 0.7814645308924485
 
+* Create a README that reports a comparison of each model's performance as well as a summary about your findings and 
+any assumptions you can make based on your model (is your model good enough to predict new exoplanets? 
+Why or why not? What would make your model be better at predicting new exoplanets?).
 
+Reporting
+✓ README compares each of
+the models’ performances and
+predictions
+✓ README summarizes the
+findings and makes assumptions
+based on the data and their
+models.
+✓ README discusses the
+predictions of the possible
+exoplanets with their models.
