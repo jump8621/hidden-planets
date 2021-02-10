@@ -6,12 +6,16 @@ Machine Learning dealing with data from the Kepler space telescope
 TEST/DATA| RFT | LR | DL | SVC |
 ---------|-----|----|----|-----|
 Test accuracy| 0.900| 0.884| 0.879| 0.879
+Final # of Features Trained | 27 | 28 | 40 | 32 |
+Training Data Score | 1.0 | 0.852 | N/A | 0.847 |
+Testing Data Score | 0.893 | 0.856 | N/A | 0.837 |
+Best Score | 0.892 | 0.872 | N/A | 0.882 |
 
 
-Test accuracy: 0.900
 
-# My Random Forest Tree model has the highest percentage of test accuracy at 0.894
 
+# My Random Forest Tree model has the highest percentage of test accuracy at 0.900
+Test accuracy: 0.894
 The Random Forest Tree model 
 
 RandomForestClassifier(n_estimators=500)
